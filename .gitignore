@@ -1,0 +1,19 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache (makes your code run faster locally, but junk for GitHub)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data and Logs (Keep your "Raw Data" on the Pi, not the cloud)
+logs/
+*.log
+*.csv
+*.txt
+
+# OS-specific junk
+.DS_Store
+thumbs.db
