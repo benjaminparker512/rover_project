@@ -49,7 +49,12 @@ def log_stats(stats):
 
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    with open(log_file, "a") as f:
-        f.write(
-            f"[{timestamp}] Temp: {stats['temp']}C | Voltage: {stats['throttled']}\n"
-        )
+    #with open(log_file, "a") as f:
+    #    f.write(
+    #        f"[{timestamp}] Temp: {stats['temp']}C | Voltage: {stats['throttled']}\n"
+    #    )
+
+if __name__ == "__main__":
+    stats = get_pi_stats()
+    print_stats(stats)
+    
