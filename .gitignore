@@ -3,7 +3,7 @@
 venv/
 env/
 
-# Python cache (makes your code run faster locally, but junk for GitHub)
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
@@ -14,6 +14,6 @@ logs/
 *.csv
 *.txt
 
-# OS-specific junk
+# OS
 .DS_Store
 thumbs.db
